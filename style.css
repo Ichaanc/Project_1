@@ -99,12 +99,12 @@
 }
 
 /* mobile device */
-@media only screen and (min-width: 600px){
+@media only screen and (max-width: 390px){
 
 
 #s{
    
-    flex-direction: row-reverse;
+    flex-direction: column-reverse;
 }
 }
   
