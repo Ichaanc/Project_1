@@ -97,3 +97,15 @@
     min-height: 50vh;
     
 }
+
+/* mobile device */
+@media only screen and (min-width: 600px){
+
+
+#s{
+   
+    flex-direction: row-reverse;
+}
+}
+  
+    

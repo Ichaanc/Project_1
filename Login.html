@@ -1,215 +1,264 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>OP-OL</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="login.css">
-    <link rel="shortcut icon" type="x-icon" href="Background/iconic.png">
     <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-    crossorigin="anonymous"
-    referrerpolicy="no-referrer"
-  />
-</head>
-<body >
-<!-- navbarsection -->
-<nav class="navbar navbar-expand-lg bg-dark shadow-lg fixed-top">
-       
-    <div class="container-fluid border border-dark">
-      <a class="navbar-brand text-white ps-3 pb-3 mt-3 my-auto"  href="index.html"><img src="Icon/logo.png" class="icon-img" alt="Logo">    OP-OL</a>
-      <a href="#" style="color:white;"><i class="fa-solid fa-magnifying-glass ps-1 mt-5"></i></a>
-      <a href="#" style="color:white;"><i class="fa-solid fa-user ps-2 mt-5 " ></i></a>
-      <a href="#" style="color:white;"><i class="fa-solid fa-star  ps-2 mt-5" ></i></a>
-      <a href="#" style="color:white;"><i class="fa-solid fa-cart-shopping ps-2 mt-5" ></i></a>
-     
-      <button class="navbar-toggler bg-secondary " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon bg-secondary"></span>
-      </button>
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="login.css" />
+    <link rel="shortcut icon" type="x-icon" href="Background/iconic.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- navbarsection -->
+    <nav class="navbar navbar-expand-lg bg-dark shadow-lg fixed-top">
+      <div class="container-fluid border border-dark">
+        <a
+          class="navbar-brand text-white ps-3 pb-3 mt-3 my-auto"
+          href="index.html"
+          ><img src="Icon/logo.png" class="icon-img" alt="Logo" /> OP-OL</a
+        >
+        <a href="#" style="color: white"
+          ><i class="fa-solid fa-magnifying-glass ps-1 mt-5"></i
+        ></a>
+        <a href="#" style="color: white"
+          ><i class="fa-solid fa-user ps-2 mt-5"></i
+        ></a>
+        <a href="#" style="color: white"
+          ><i class="fa-solid fa-star ps-2 mt-5"></i
+        ></a>
+        <a href="#" style="color: white"
+          ><i class="fa-solid fa-cart-shopping ps-2 mt-5"></i
+        ></a>
+
+        <button
+          class="navbar-toggler bg-secondary"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon bg-secondary"></span>
+        </button>
         <div class="collapse navbar-collapse ms-5" id="navbarNavAltMarkup">
           <div class="navbar-nav text-white ms-5">
-          
-          <a class="text-white nav-link ms-3" href="Char.html">Character</a>
-          <a class="text-white nav-link ms-3" href="DevilFruit.html">Devil Fruits</a>
-          <a class="text-white nav-link ms-3" href="Arcs.html">Arcs</a>   
+            <a class="text-white nav-link ms-3" href="Char.html">Character</a>
+            <a class="text-white nav-link ms-3" href="DevilFruit.html"
+              >Devil Fruits</a
+            >
+            <a class="text-white nav-link ms-3" href="Arcs.html">Arcs</a>
           </div>
-       </div>
-    </div>
-  </nav>
- <br>
- <br>
- <br>
- <br>
- <br>
- <br>
- <br>
- <br>
- <br>
- <section class="container-fluid" >
-  <div class="row justify-content-center">
-    <div class="col-md-8">
-      <div data-aos="flip-left"
-      data-aos-easing="ease-out-cubic"
-      data-aos-duration="2000">
-    
-        <div class="container" id="container">
-          
-          <div class="form-container register-container">
-            <form>
-              <h1>Register here</h1>
-              <div class="form-control">
-                <input type="text" id="username" placeholder="Name" />
-                <small id="username-error"></small>
-                <span></span>
+        </div>
+      </div>
+    </nav>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <section class="container-fluid">
+      <div class="row justify-content-center">
+        <div class="col-8">
+          <div
+            data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+          >
+            <div class="container" id="container">
+              <div class="form-container register-container">
+                <form>
+                  <h1>Register here</h1>
+                  <div class="form-control">
+                    <input type="text" id="username" placeholder="Name" />
+                    <small id="username-error"></small>
+                    <span></span>
+                  </div>
+                  <div class="form-control">
+                    <input type="email" id="email" placeholder="Email" />
+                    <small id="email-error"></small>
+                    <span></span>
+                  </div>
+                  <div class="form-control">
+                    <input
+                      type="password"
+                      id="password"
+                      placeholder="Password"
+                    />
+                    <small id="password-error"></small>
+                    <span></span>
+                  </div>
+                  <button type="submit" value="submit">Register</button>
+                  <span>or use your account</span>
+                  <div class="social-container">
+                    <a href="#" class="social1"
+                      ><i class="fa-brands fa-facebook-f"></i
+                    ></a>
+                    <a href="#" class="social2"
+                      ><i class="fa-brands fa-google"></i
+                    ></a>
+                    <a href="#" class="social3"
+                      ><i class="fa-brands fa-tiktok"></i
+                    ></a>
+                  </div>
+                </form>
               </div>
-              <div class="form-control">
-                <input type="email" id="email" placeholder="Email" />
-                <small id="email-error"></small>
-                <span></span>
+
+              <div class="form-container login-container">
+                <form class="form-lg">
+                  <h1>Login here.</h1>
+                  <div class="form-control2">
+                    <input type="email" class="email-2" placeholder="Email" />
+                    <small class="email-error-2"></small>
+                    <span></span>
+                  </div>
+                  <div class="form-control2">
+                    <input
+                      type="password"
+                      class="password-2"
+                      placeholder="Password"
+                    />
+                    <small class="password-error-2"></small>
+                    <span></span>
+                  </div>
+
+                  <div class="content">
+                    <div class="checkbox">
+                      <input type="checkbox" name="checkbox" id="checkbox" />
+                      <label for="">Remember me</label>
+                    </div>
+                    <div class="pass-link">
+                      <a href="#">Forgot password</a>
+                    </div>
+                  </div>
+                  <button type="submit" value="submit">Login</button>
+                  <span>Or use your account</span>
+                  <div class="social-container">
+                    <a href="#" class="social1"
+                      ><i class="fa-brands fa-facebook-f"></i
+                    ></a>
+                    <a href="#" class="social2"
+                      ><i class="fa-brands fa-google"></i
+                    ></a>
+                    <a href="#" class="social3"
+                      ><i class="fa-brands fa-tiktok"></i
+                    ></a>
+                  </div>
+                </form>
               </div>
-              <div class="form-control">
-                <input type="password" id="password" placeholder="Password" />
-                <small id="password-error"></small>
-                <span></span>
-              </div>
-              <button type="submit" value="submit">Register</button>
-              <span>or use your account</span>
-              <div class="social-container">
-                <a href="#" class="social1"
-                  ><i class="fa-brands fa-facebook-f"></i
-                ></a>
-                <a href="#" class="social2"><i class="fa-brands fa-google"></i></a>
-                <a href="#" class="social3"><i class="fa-brands fa-tiktok"></i></a>
-              </div>
-            </form>
-          </div>
-    
-          <div class="form-container login-container">
-            <form class="form-lg">
-              <h1>Login here.</h1>
-              <div class="form-control2">
-                <input type="email" class="email-2" placeholder="Email" />
-                <small class="email-error-2"></small>
-                <span></span>
-              </div>
-              <div class="form-control2">
-                <input type="password" class="password-2" placeholder="Password" />
-                <small class="password-error-2"></small>
-                <span></span>
-              </div>
-    
-              <div class="content">
-                <div class="checkbox">
-                  <input type="checkbox" name="checkbox" id="checkbox" />
-                  <label for="">Remember me</label>
+
+              <div class="overlay-container">
+                <div class="overlay">
+                  <div class="overlay-panel overlay-left">
+                    <h1 class="title">
+                      Hello <br />
+                      friends
+                    </h1>
+                    <p>If you have an account, login here and have fun</p>
+                    <button class="ghost" id="login">
+                      Login
+                      <i class="fa-solid fa-arrow-left"></i>
+                    </button>
+                  </div>
+
+                  <div class="overlay-panel overlay-right">
+                    <h1 class="title">
+                      Start your <br />
+                      journey now
+                    </h1>
+                    <p>
+                      If you don'n have an account yet, join us and start your
+                      journey
+                    </p>
+                    <button class="ghost" id="register">
+                      Register
+                      <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                  </div>
                 </div>
-                <div class="pass-link">
-                  <a href="#">Forgot password</a>
-                </div>
-              </div>
-              <button type="submit" value="submit">Login</button>
-              <span>Or use your account</span>
-              <div class="social-container">
-                <a href="#" class="social1"
-                  ><i class="fa-brands fa-facebook-f"></i
-                ></a>
-                <a href="#" class="social2"><i class="fa-brands fa-google"></i></a>
-                <a href="#" class="social3"><i class="fa-brands fa-tiktok"></i></a>
-              </div>
-            </form>
-          </div>
-    
-          <div class="overlay-container">
-            <div class="overlay">
-              <div class="overlay-panel overlay-left">
-                <h1 class="title">
-                  Hello <br />
-                  friends
-                </h1>
-                <p>If you have an account, login here and have fun</p>
-                <button class="ghost" id="login">
-                  Login
-                  <i class="fa-solid fa-arrow-left"></i>
-                </button>
-              </div>
-    
-              <div class="overlay-panel overlay-right">
-                <h1 class="title">
-                  Start your <br />
-                  journey now
-                </h1>
-                <p>
-                  If you don'n have an account yet, join us and start your journey
-                </p>
-                <button class="ghost" id="register">
-                  Register
-                  <i class="fa-solid fa-arrow-right"></i>
-                </button>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </div>
-  
- 
-  
-
-
-</section>
- <!-- footersection -->
- <hr class="text-white">
- <footer class="bg-dark container-fluid mb-0">
-   <div class="text-center  py-4 align-items-center">
-     <p class="text-white" >Follow OP-OL on social media</p>
-     <a
-        href="https://www.youtube.com"
-        class="btn btn-secondary m-1"
-        role="button"
-        rel="nofollow"
-        target="_blank"
+    </section>
+    <!-- footersection -->
+    <hr class="text-white" />
+    <footer class="bg-dark container-fluid mb-0">
+      <div class="text-center py-4 align-items-center">
+        <p class="text-white">Follow OP-OL on social media</p>
+        <a
+          href="https://www.youtube.com"
+          class="btn btn-secondary m-1"
+          role="button"
+          rel="nofollow"
+          target="_blank"
         >
-       <i class="fab fa-youtube"></i>
-     </a>
-     <a
-        href="https://www.facebook.com"
-        class="btn btn-secondary m-1"
-        role="button"
-        rel="nofollow"
-        target="_blank"
+          <i class="fab fa-youtube"></i>
+        </a>
+        <a
+          href="https://www.facebook.com"
+          class="btn btn-secondary m-1"
+          role="button"
+          rel="nofollow"
+          target="_blank"
         >
-       <i class="fab fa-facebook-f"></i>
-     </a>
-     <a
-        href="https://twitter.com"
-        class="btn btn-secondary m-1"
-        role="button"
-        rel="nofollow"
-        target="_blank"
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a
+          href="https://twitter.com"
+          class="btn btn-secondary m-1"
+          role="button"
+          rel="nofollow"
+          target="_blank"
         >
-       <i class="fab fa-twitter"></i>
-     </a>
-     
-   </div>
- 
-   <!-- Copyright -->
-   <div class="text-center text-white p-3" style="background-color: rgba(0, 0, 0, 0.2)">
-     © 2023 Copyright: ONE PIECE ONLINE LIBRARY 
-   </div>
-   <!-- Copyright -->
- </footer>
+          <i class="fab fa-twitter"></i>
+        </a>
+      </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+      <!-- Copyright -->
+      <div
+        class="text-center text-white p-3"
+        style="background-color: rgba(0, 0, 0, 0.2)"
+      >
+        © 2023 Copyright: ONE PIECE ONLINE LIBRARY
+      </div>
+      <!-- Copyright -->
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-        AOS.init();
+      AOS.init();
     </script>
     <script src="main.js"></script>
-</body>
+  </body>
 </html>
