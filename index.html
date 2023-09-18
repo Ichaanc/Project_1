@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OP-OL</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="x-icon" href="Background/iconic.png">
+</head>
+<body class="bg-dark">
+    <!-- navbarsection -->
+    <nav class="navbar navbar-expand-lg bg-dark shadow-lg fixed-top">
+       
+      <div class="container-fluid border border-dark">
+        <a class="navbar-brand text-white ps-3 pb-3 mt-3 my-auto"  href="#"><img src="Icon/logo.png" class="icon-img" alt="Logo">    OP-OL</a>
+        <a href="#" style="color:white;"><i class="fa-solid fa-magnifying-glass ps-1 mt-5"></i></a>
+        <a href="Login.html" style="color:white;"><i class="fa-solid fa-user ps-2 mt-5 " ></i></a>
+        <a href="#" style="color:white;"><i class="fa-solid fa-star  ps-2 mt-5" ></i></a>
+        <a href="#" style="color:white;"><i class="fa-solid fa-cart-shopping ps-2 mt-5" ></i></a>
+       
+        <button class="navbar-toggler bg-secondary " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon bg-secondary"></span>
+        </button>
+          <div class="collapse navbar-collapse ms-5" id="navbarNavAltMarkup">
+            <div class="navbar-nav text-white ms-5">
+            <a class="text-white nav-link ms-3" href="Char.html">Character</a>
+            <a class="text-white nav-link ms-3" href="DevilFruit.html">Devil Fruits</a>
+            <a class="text-white nav-link ms-3" href="Arcs.html">Arcs</a>   
+            </div>
+         </div>
+      </div>
+    </nav>
+       <!-- herosection -->
+       <!-- carousel -->
+    <header >
+        <div id="Hero" class="carousel slide shadow-lg " >
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#Hero" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#Hero" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#Hero" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner " >
+              <div class="carousel-item active c-itemvideo" >
+                <video
+               style="min-width: 100%; min-height: 100%"
+               playsinline
+               autoplay
+               muted
+               loop
+               >
+          <source
+                  class="h-100"
+                  src="Video/op.mp4"
+                  type="video/mp4"
+                  />
+        </video>
+                <div class="carousel-caption top-0 mt-5  " class="d-block">
+                  <div data-aos="zoom-in-left">
+                  <h5 class="labelop shadow-lg " >WELCOME</h5>
+                  <h4 class="mt-2 fs-3 text-uppercase shadow-lg">TO</h4>
+                  <h1 class="display-1 mt-2 fw-bolder text-capitalize shadow-lg" >ONE PIECE ONLINE LIBRARY</h1>
+                  <a
+                 class="btn btn-outline-light btn-lg m-2"
+                 href="https://www.youtube.com/watch?v=MCb13lbVGE0"
+                 target="_blank"
+                 role="button"
+                 >Click to Watch</a>
+                </div>
+              </div>
+              </div>
+              <div class="carousel-item c-item">
+                <img src="Background/B2.jpg" class=" d-block w-100 c-img" alt="B2">
+                <div class="carousel-caption top-0 mt-5 ">
+                  <div data-aos="zoom-in-left">
+                  <h1 class="display-1 fw-bolder mt-5 text-capitalize">“If you don’t take risks, you can’t create a future.”</h1>
+                  <h1 class="mt-5 fs-3 text-uppercase">-LUFFY</h1>
+                </div>
+              </div>
+              </div>
+              <div class="carousel-item c-item">
+                <img src="Background/B3.jpg" class="  d-block w-100 c-img" alt="B3">
+                <div class="carousel-caption top-0 mt-5 ">
+                  <div data-aos="zoom-in-left">
+                  <h1 class="display-3 fw-bolder mt-5 text-capitalize">“Then just become stronger. I have my ambition; you have your ambition too. Which means you should just keep walking forward towards that goal.”</h1>
+                  <h1 class=" fs-3 mt-5 text-uppercase">-LUFFY</h1>
+                </div>
+              </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#Hero" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#Hero" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+ 
+    </header>
+    
+    <!-- One piece member -->
+    <div data-aos="zoom-in-left">
+    <h3 class="text-center mb-5 text-white pt-5 display-4 fw-bolder text-capitalize shadow-lg">ONE PIECE STRAWHAT CREW</h3>
+  </div>
+    <br>
+    <br>
+    <section class="pos bg-dark pt-5">
+      <div data-aos="flip-up">
+      <div class="box">
+        <span style="--i:1"><img src="crew/luffy.png" alt=""></span>
+        <span style="--i:2"><img src="crew/zoro2.png" alt=""></span>
+        <span style="--i:3"><img src="crew/zanji2.png" alt=""></span>
+        <span style="--i:4"><img src="crew/namimain.png" alt=""></span>
+        <span style="--i:5"><img src="crew/usopmain.png" alt=""></span>
+        <span style="--i:6"><img src="crew/choppermain.png" alt=""></span>
+        <span style="--i:7"><img src="crew/robin2.png" alt=""></span>
+        <span style="--i:8"><img src="crew/franky6.webp" alt=""></span>
+        <span style="--i:9"><img src="crew/brook2.png" alt=""></span>
+        <span style="--i:10"><img src="crew/jinbe.png" alt=""></span>
+      </div>
+    </div>
+    </section>
+    <!-- member details -->
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <section class="bg-dark text-white container-fluid pb-5 ps-5 pe-5  "  >
+      <div class="container fluids square-box d-flex justify-content-center align-items-center">
+      <div class="row">
+                
+                <div class="col-12 col-md-6 col-lg-6 mb-2 shadow " >
+                  <div data-aos="zoom-out-left">
+                 <h1 class="text-center text-white fw-bolder text-capitalize shadow ">Monkey D. Luffy</h1>
+                 <h5 class="text-center fw-bolder text-capitalize text-secondary mt-2">the captain of the Straw Hat Pirates and the main protagonist.</h5>
+                 <p class="text-start mt-5 fw-bolder text-capitalize text-uppercase text-muted"><h5>Role:</h5>Captain</p>
+                 <p class="text-start fw-bolder text-uppercase text-white"><h5>Crew Debut:</h5> Episode 1, Chapter 1</p>
+                 <p class="text-start fw-bolder text-uppercase text-white"><h5>Devil Fruit:</h5> Hito Hito no Mi, Model: Nika (Human-Human Fruit, Model: Nika)</p>
+                 <p class="text-start fw-bolder text-uppercase text-white"><h5>Haki:</h5> Armament, Observation, and Conqueror’s</p>
+                 <p class="text-start fw-bolder text-uppercase text-white"><h5>Bounty:</h5> 3,000,000,000 Berries</p>
+                </div>
+               </div>
+                <div  class="col-12 col-md-6 col-lg-6">
+                  <div data-aos="zoom-out-right">
+                  <img src="crew/luffy6.webp" class="char" alt="">
+                </div>
+                 </div>
+                 <br>
+                 <hr>
+                 <br>
+                 <div class="col align-self-center" >
+                  <div data-aos="zoom-out-right">
+                  <img src="crew/zoro.png" class="char "  alt="Zoro">
+                </div>
+                </div>
+                 <div class="col-12 col-md-6 col-lg-6 shadow" >
+                  <div data-aos="zoom-out-left">
+                  <h1 class="text-center text-white fw-bolder text-capitalize shadow ">Roronoa Zoro</h1>
+                  <h5 class="text-center fw-bolder text-capitalize text-secondary mt-2">the swordsman and first mate of the crew.</h5>
+                  <p class="text-start mt-2 fw-bolder text-capitalize text-uppercase text-muted"><h5>Role:</h5> Combatant (Swordsman), Second Captain, Righthand man of Luffy</p>
+                  <p class="text-start fw-bolder text-uppercase text-white"><h5>Crew Debut:</h5>Episode 3, Chapter 6</p>
+                  <p class="text-start fw-bolder text-uppercase text-white"><h5>Devil Fruit:</h5></p>
+                  <p class="text-start fw-bolder text-uppercase text-white"><h5>Haki:</h5> Armament, Observation, and Conqueror’s</p>
+                  <p class="text-start fw-bolder text-uppercase text-white"><h5>Bounty:</h5> 3,000,000,000 Berries</p>
+                </div>
+              </div>
+                <br>
+                 <hr>
+                 <br>
+                 <div class="col-12 col-md-6 col-lg-6 shadow" >
+                  <div data-aos="zoom-out-left">
+                  <h1 class="text-center text-white fw-bolder text-capitalize shadow ">Vinsmoke Sanji</h1>
+                  <h5 class="text-center fw-bolder text-capitalize text-secondary mt-2">the cook and martial artist of the crew.</h5>
+                  <p class="text-start mt-3 fw-bolder text-capitalize text-uppercase text-muted"><h5>Role:</h5>Cook</p>
+                  <p class="text-start fw-bolder text-uppercase text-white"><h5>Crew Debut:</h5>Episode 30, Chapter 68</p>
+                  <p class="text-start fw-bolder text-uppercase text-white"><h5>Devil Fruit:</h5>None</p>
+                  <p class="text-start fw-bolder text-uppercase text-white"><h5>Haki:</h5> Armament, Observation</p>
+                  <p class="text-start fw-bolder text-uppercase text-white"><h5>Bounty:</h5> 1,032,000,000 Berries</p>
+                </div>
+              </div>
+                 <div class="col-12 col-md-6 col-lg-6 " >
+                  <div data-aos="zoom-out-right">
+                    <img src="crew/Sanji.webp" class="char "  alt="sanji">
+                  </div>
+                </div>
+                  <br>
+                  <hr>
+                  <br>
+                  <div class="col-12 col-md-6 col-lg-6 " >
+                    <div data-aos="zoom-out-right">
+                   <img src="crew/nami.webp" class="char "  alt="nami">
+                 </div>
+                </div>
+                  <div class="col-12 col-md-6 col-lg-6 shadow" >
+                    <div data-aos="zoom-out-left">
+                   <h1 class="text-center text-white fw-bolder text-capitalize shadow mt-5">Cat Burglar Nami</h1>
+                   <h5 class="text-center fw-bolder text-capitalize text-secondary mt-2">the navigator and thief of the crew.</h5>
+                   <p class="text-start mt-3 fw-bolder text-capitalize text-uppercase text-muted"><h5>Role:</h5>Navigator</p>
+                   <p class="text-start fw-bolder text-uppercase text-white"><h5>Crew Debut:</h5>Episode 43, Chapter 94</p>
+                   <p class="text-start fw-bolder text-uppercase text-white"><h5>Devil Fruit:</h5>None</p>
+                   <p class="text-start fw-bolder text-uppercase text-white"><h5>Haki:</h5>Unconfirmed</p>
+                   <p class="text-start fw-bolder text-uppercase text-white"><h5>Bounty:</h5> 366,000,000 Berries</p>
+                 </div>
+                </div>
+                 <br>
+                  <hr>
+                  <br>
+                  <div class="col-12 col-md-6 col-lg-6 shadow" >
+                    <div data-aos="zoom-out-left">
+                    <h1 class="text-center text-white fw-bolder text-capitalize shadow ">"God" Usopp</h1>
+                    <h5 class="text-center fw-bolder text-capitalize text-secondary mt-2">the sniper and inventor of the crew.</h5>
+                    <p class="text-start mt-3 fw-bolder text-capitalize text-uppercase text-muted"><h5>Role:</h5>Sniper</p>
+                    <p class="text-start fw-bolder text-uppercase text-white"><h5>Crew Debut:</h5>Episode 17, Chapter 41</p>
+                    <p class="text-start fw-bolder text-uppercase text-white"><h5>Devil Fruit:</h5>None</p>
+                    <p class="text-start fw-bolder text-uppercase text-white"><h5>Haki:</h5>Observation</p>
+                    <p class="text-start fw-bolder text-uppercase text-white"><h5>Bounty:</h5> 500,000,000 Berries</p>
+                  </div>
+                </div>
+                   <div class="col-12 col-md-6 col-lg-6 " >
+                    <div data-aos="zoom-out-right">
+                      <img src="crew/usop.png" class="char "  alt="usop">
+                    </div>
+                  </div>
+                    <br>
+                    <hr>
+                    <br>
+                    <div class="col-12 col-md-6 col-lg-6 " >
+                      <div data-aos="zoom-out-right">
+                     <img src="crew/Chopper.webp" class="char "  alt="chopper">
+                   </div>
+                  </div>
+                    <div class="col-12 col-md-6 col-lg-6 shadow" >
+                      <div data-aos="zoom-out-left">
+                     <h1 class="text-center text-white fw-bolder text-capitalize shadow mt-5">Tony Tony Chopper</h1>
+                     <h5 class="text-center fw-bolder text-capitalize text-secondary mt-2">the doctor and reindeer of the crew.</h5>
+                     <p class="text-start mt-3 fw-bolder text-capitalize text-uppercase text-muted"><h5>Role:</h5>Doctor</p>
+                     <p class="text-start fw-bolder text-uppercase text-white"><h5>Crew Debut:</h5>Episode 85, Chapter 153</p>
+                     <p class="text-start fw-bolder text-uppercase text-white"><h5>Devil Fruit:</h5>Hito Hito no Mi (Human-Human Fruit)</p>
+                     <p class="text-start fw-bolder text-uppercase text-white"><h5>Haki:</h5>Unconfirmed</p>
+                     <p class="text-start fw-bolder text-uppercase text-white"><h5>Bounty:</h5> 1,000 Berries</p>
+                   </div>
+                   </div>
+                   <br>
+                    <hr>
+                    <br>
+                    <div class="col-12 col-md-6 col-lg-6 shadow" >
+                      <div data-aos="zoom-out-left">
+                      <h1 class="text-center text-white fw-bolder text-capitalize shadow ">"Nico Robin</h1>
+                      <h5 class="text-center fw-bolder text-capitalize text-secondary mt-2">the archaeologist and former assassin of the crew.</h5>
+                      <p class="text-start mt-3 fw-bolder text-capitalize text-uppercase text-muted"><h5>Role:</h5>Archaeologist</p>
+                      <p class="text-start fw-bolder text-uppercase text-white"><h5>Crew Debut:</h5>Episode 130, Chapter 218</p>
+                      <p class="text-start fw-bolder text-uppercase text-white"><h5>Devil Fruit:</h5>Hana Hana no Mi (Flower-Flower Fruit)</p>
+                      <p class="text-start fw-bolder text-uppercase text-white"><h5>Haki:</h5>Unconfirmed</p>
+                      <p class="text-start fw-bolder text-uppercase text-white"><h5>Bounty:</h5> 930,000,000 Berries</p>
+                    </div>
+                  </div>
+                     <div class="col-12 col-md-6 col-lg-6 " >
+                      <div data-aos="zoom-out-right">
+                        <img src="crew/robin.png" class="char "  alt="robin">
+                      </div>
+                    </div>
+                      <br>
+                      <hr>
+                      <br>
+                      <div class="col-12 col-md-6 col-lg-6 " >
+                        <div data-aos="zoom-out-right">
+                       <img src="crew/Franky2.webp" class="char "  alt="Luffy">
+                     </div>
+                    </div>
+                      <div class="col-12 col-md-6 col-lg-6 shadow" >
+                        <div data-aos="zoom-out-left">
+                       <h1 class="text-center text-white fw-bolder text-capitalize shadow mt-5">Cutty Flam "Franky"</h1>
+                       <h5 class="text-center fw-bolder text-capitalize text-secondary mt-2">the shipwright and cyborg of the crew.</h5>
+                       <p class="text-start mt-3 fw-bolder text-capitalize text-uppercase text-muted"><h5>Role:</h5>Shipwright</p>
+                       <p class="text-start fw-bolder text-uppercase text-white"><h5>Crew Debut:</h5>Episode 322, Chapter 437</p>
+                       <p class="text-start fw-bolder text-uppercase twhitetext-white"><h5>Devil Fruit:</h5>None</p>
+                       <p class="text-start fw-bolder text-uppercase text-white"><h5>Haki:</h5>Unconfirmed</p>
+                       <p class="text-start fw-bolder text-uppercase text-white"><h5>Bounty:</h5> 349,000,000 Berries</p>
+                     </div>
+                    </div>
+                     <br>
+                      <hr>
+                      <br>
+                      <div class="col-12 col-md-6 col-lg-6 shadow" >
+                        <div data-aos="zoom-out-left">
+                        <h1 class="text-center text-white fw-bolder text-capitalize shadow ">Brook"Dead Bones"Soul King</h1>
+                        <h5 class="text-center fw-bolder text-capitalize text-secondary mt-2">the musician and skeleton of the crew.</h5>
+                        <p class="text-start mt-3 fw-bolder text-capitalize text-uppercase text-muted"><h5>Role:</h5>Musician, Swordsman</p>
+                        <p class="text-start fw-bolder text-uppercase text-white"><h5>Crew Debut:</h5>Episode 381, Chapter 489/p>
+                        <p class="text-start fw-bolder text-uppercase text-white"><h5>Devil Fruit:</h5>Yomi Yomi no Mi (Revive-Revive Fruit)</p>
+                        <p class="text-start fw-bolder text-uppercase text-white"><h5>Haki:</h5>Unconfirmed</p>
+                        <p class="text-start fw-bolder text-uppercase text-white"><h5>Bounty:</h5> 383,000,000 Berries</p>
+                      </div>
+                    </div>
+                       <div class="col-12 col-md-6 col-lg-6 " >
+                        <div data-aos="zoom-out-right">
+                          <img src="crew/brook.png" class="char "  alt="brook">
+                        </div>
+                      </div>
+                        <br>
+                        <hr>
+                        <br>
+                        <div class="col-12 col-md-6 col-lg-6 " >
+                          <div data-aos="zoom-out-right">
+                         <img src="crew/jinbie2.png" class="char "  alt="jinbei">
+                       </div>
+                      </div>
+                        <div class="col-12 col-md-6 col-lg-6 shadow" >
+                          <div data-aos="zoom-out-left">
+                         <h1 class="text-center text-white fw-bolder text-capitalize shadow mt-5">"Knight of the Sea" Jinbe</h1>
+                         <h5 class="text-center fw-bolder text-capitalize text-secondary mt-2">the helmsman and fish-man of the crew.</h5>
+                         <p class="text-start mt-3 fw-bolder text-capitalize text-uppercase text-muted"><h5>Role:</h5>Helmsman</p>
+                         <p class="text-start fw-bolder text-uppercase text-white"><h5>Crew Debut:</h5>Episode 980, Chapter 976</p>
+                         <p class="text-start fw-bolder text-uppercase text-white"><h5>Devil Fruit:</h5>None</p>
+                         <p class="text-start fw-bolder text-uppercase text-white"><h5>Haki:</h5> Armament and Observation</p>
+                         <p class="text-start fw-bolder text-uppercase text-white"><h5>Bounty:</h5> 1,100,000,000 Berries</p>
+                       </div>
+                      </div>
+                       <br>
+                        <hr>
+                        <br>
+                 
+                 
+          </div>  
+        </div>
+          
+    <section >
+         <!-- footersection -->
+      <footer>
+        <div class="text-center py-4 align-items-center">
+          <p>Follow OP-OL on social media</p>
+          <a
+             href="https://www.youtube.com"
+             class="btn btn-secondary m-1"
+             role="button"
+             rel="nofollow"
+             target="_blank"
+             >
+            <i class="fab fa-youtube"></i>
+          </a>
+          <a
+             href="https://www.facebook.com"
+             class="btn btn-secondary m-1"
+             role="button"
+             rel="nofollow"
+             target="_blank"
+             >
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a
+             href="https://twitter.com"
+             class="btn btn-secondary m-1"
+             role="button"
+             rel="nofollow"
+             target="_blank"
+             >
+            <i class="fab fa-twitter"></i>
+          </a>
+          
+        </div>
+      
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+          © 2023 Copyright: ONE PIECE ONLINE LIBRARY 
+        </div>
+        <!-- Copyright -->
+      </footer>
+      
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
